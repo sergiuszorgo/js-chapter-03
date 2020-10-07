@@ -44,3 +44,72 @@
 
 // console.log(countProps({ a: 1, b: 1, c: 1, d: 1, e: 1 })); // 5
 // ---
+// Задача 3-3
+// const findBestEmployee = function (employees) {
+//   "use strict";
+//   // Write code under this line
+//   let maxImus = 0;
+//   let lider = "";
+//   for (const staff in employees) {
+//     if (employees[staff] > maxImus) {
+//       maxImus = employees[staff];
+//       lider = staff;
+//     }
+//   }
+//   return lider;
+// };
+
+// // Объекты и ожидаемый результат
+// const developers = {
+//   ann: 29,
+//   david: 35,
+//   helen: 1,
+//   lorence: 99,
+// };
+// console.log(findBestEmployee(developers));
+// // 'lorence'
+
+// const supports = {
+//   poly: 12,
+//   mango: 17,
+//   ajax: 4,
+// };
+// console.log(findBestEmployee(supports));
+// // 'mango'
+
+// const sellers = {
+//   lux: 147,
+//   david: 21,
+//   kiwi: 19,
+//   chelsy: 38,
+// };
+// console.log(findBestEmployee(sellers));
+// // 'lux'
+// ---
+// Задача 3-4
+// const countTotalSalary = function (employees) {
+//   "use strict";
+//   // Write code under this line
+//   let toTal = 0;
+//   for (const staff in employees) {
+//     toTal += employees[staff];
+//   }
+//   return toTal;
+// };
+
+// // Объекты и ожидаемый результат
+// const developers = {
+//   mango: 300,
+//   poly: 250,
+//   alfred: 450,
+// };
+// console.log(countTotalSalary(developers));
+// // 1000
+
+// const supports = {
+//   kiwi: 200,
+//   lux: 150,
+//   chelsy: 150,
+// };
+// console.log(countTotalSalary(supports));
+// // 500
