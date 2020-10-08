@@ -118,10 +118,11 @@ function getAllPropValues (array, prop) {
   'use strict';
   // Write code under this line 
     const stack = [];
-    for (const item of array) {
-        stack.push(item.prop)
+    for (const item in array) {
+        // stack.push(item[prop]);
+        console.log(item.prop);
     }
-    return stack
+    // return stack
 }
 
 // Объекты и ожидаемый результат
