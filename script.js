@@ -236,3 +236,10 @@
 // console.table(cart.getItems());
 
 // console.log('Total: ', cart.countTotalPrice());
+
+// - - - 
+
+const temperatures = [18, 14, 12, 21, 17, 29];
+console.log(Math.min(...[18, 14, 12, 21, 17, 29]));
+
+const nextTemps = temperatures.concat
