@@ -276,7 +276,26 @@
 
 // - - - 
 
-const temperatures = [18, 14, 12, 21, 17, 29];
-console.log(Math.min(...[18, 14, 12, 21, 17, 29]));
+// const temperatures = [18, 14, 12, 21, 17, 29];
+// console.log(Math.min(...[18, 14, 12, 21, 17, 29]));
 
-const nextTemps = temperatures.concat
+// const nextTemps = temperatures.concat
+// - - - - - - - 
+
+// // ДЕСТРУКТУРИЗАЦИЯ
+// const hotel = {
+//   name: 'Resort Hotel',
+//   stars: 5,
+//   capacity: 100,
+// };
+
+// const showHotelInfo = function ({ name = '', stars = 1, capacity = 0 } ) {
+//     // const { name = '', stars = 1, capacity = 0 } = hotelStatus;
+//     console.log('Name: ', name);
+//     console.log('Stars: ', stars);
+//     console.log('Capacity: ', capacity);
+// }
+
+// showHotelInfo(hotel);
+
+// - - - - - - - - - -
